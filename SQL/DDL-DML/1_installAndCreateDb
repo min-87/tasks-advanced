@@ -1,0 +1,13 @@
+Установка сервера баз данных и запуск оболочки:
+
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+sudo -u postgres psql
+
+Создание пользователя, базы данных и назначение прав:
+
+create user username with password 'password';
+create database vscale_db;
+grant all privileges on database vscale_db to username;
+
+\q

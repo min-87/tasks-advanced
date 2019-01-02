@@ -1,0 +1,14 @@
+
+    Используя telnet выполните запрос к hexlet.local (расположен на localhost) на порт 8080. Параметры запроса: глагол post, страница /upload, протокол http 1.1, тело: my request body. Не забудьте установить заголовки необходимые для отправки body;
+    Запишите ваш request в файл solution;
+
+
+telnet localhost 8080
+// BEGIN (write your solution here)
+POST /upload HTTP/1.1
+host: hexlet.local
+Content-length:15
+Content-Type: text/plain
+
+my request body
+// END

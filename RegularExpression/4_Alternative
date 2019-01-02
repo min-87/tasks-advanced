@@ -1,0 +1,5 @@
+Напишите регулярное выражение, которое соответствует подстрокам one или two или three.
+
+BEGIN (write your solution here)
+one|two|three
+END
